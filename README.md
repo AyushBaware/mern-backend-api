@@ -101,4 +101,4 @@ http://localhost:3000/uploads/filename.png
 This API is deployed on **Render**.
 
 ### Live URL:
-https://your-app-name.onrender.com
+https://mern-backend-api-dugy.onrender.com
