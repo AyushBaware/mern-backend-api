@@ -30,6 +30,13 @@ const limiter = rateLimit({
 app.use(limiter);
 app.use(morgan("dev"));
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "MERN Backend API is running"
+  });
+});
+
 app.use("/uploads", express.static("uploads"));
 
 app.use("/users", userRoutes);
